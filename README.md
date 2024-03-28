@@ -3,6 +3,10 @@
 </h2>
 <br/>
 
+<div align="center">
+  <img alt="Demo" src="studentGrade.gif">
+</div>
+
 ## Live Demo
 For live demo, please lick <a href="https://hannah-moon.github.io/15_JS_Dune2_Drum/">here</a>. 
 
