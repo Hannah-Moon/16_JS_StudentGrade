@@ -80,5 +80,6 @@ const generateStudents = () => {
     });
 }
 
+
 // Call the function to generate students when the page loads
 generateStudents();
