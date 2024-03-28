@@ -55,13 +55,15 @@ const generateStudents = () => {
 
         let addButton = document.createElement("button");
         addButton.innerHTML = "Add Grade & Assignment";
+      
+          // Add event Listener 
+
         addButton.addEventListener("click", () => {
 
           // Prompt pop up to collect the data from users. 
             let grade = prompt(`Enter grade for ${allStudents[student].name}:`);
             let assignmentName = prompt(`Enter assignment name for ${allStudents[student].name}:`);
           
-          // Add event Listener 
             allStudents[student].grade = grade || allStudents[student].grade;
             if (assignmentName) {
                 allStudents[student].missingAssignments.push(assignmentName);
